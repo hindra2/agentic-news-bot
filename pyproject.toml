@@ -5,7 +5,10 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "fastapi>=0.135.1",
+    "feedparser>=6.0.12",
     "httpx>=0.28.1",
     "schedule>=1.2.2",
     "trafilatura>=2.0.0",
+    "uvicorn>=0.41.0",
 ]
